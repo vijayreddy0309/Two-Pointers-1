@@ -1,4 +1,5 @@
 // ThreeSum: Find 3 elements where sum of them is zero
+// Bruteforce
 // TC: O(n^3)
 // SC: O(1)
 import java.util.ArrayList;

@@ -43,11 +43,10 @@ class Solution {
             if(nums[i] == 0) {
             swap(nums,i,low);
             low++;
-            //i++; // Incrementing i as we are sure that we get only 1 from low
         } else if(nums[i] == 2) {
             swap(nums,i,high);
             high--;
-            i--; // Not incrementing i as we are not sure what value we get from high index
+            i--; // Decrementing i as we are sure that we only 1 from high
             } else {
                 i--;
             }
